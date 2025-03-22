@@ -19,7 +19,15 @@ static int audioCallback(const void* inputBuffer, void* outputBuffer, unsigned l
 
 int main() {
 
+    vector<double> audioBuffer(BUFFER_SIZE);
+    PaStream* stream;
+    Pa_OpenDefaultStream(&stream, 1, 0, paFloat32, SAMPLE_RATE, BUFFER_SIZE, audioCallback, &audioBuffer);
+    Pa_StartStream(stream);
 
+    fftw_complex* fftOutput = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) * BUFFER_SIZE);
+    fftw_plan plan = fftw_plan_dft_r2c_1d(BUFFER_SIZE, audioBuffer.data(), fftOutput, FFTW_ESTIMATE);
+
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Audio Spectrum Visualizer");
 
     return 0;
 }
