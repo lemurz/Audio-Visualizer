@@ -1,0 +1,12 @@
+# ninja log v6
+2650	7633	7644314504750074	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+308	2510	7644314481334181	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+153	1627	7644315190469606	Visualizer.exe	3aca220a886f05b3
+99	150	7644315189921569	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+99	150	7644315189921569	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+11	1340	7644316930866093	build.ninja	bd34f91412902174
+99	150	7644315189921569	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+51	122	7644316980207046	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+51	122	7644316980207046	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+51	122	7644316980207046	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+126	9484	7644316980954335	Visualizer.exe	d26dde34755ded88

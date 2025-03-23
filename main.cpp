@@ -22,14 +22,28 @@ static int audioCallback(const void* inputBuffer, void* outputBuffer, unsigned l
 
 int main() {
 
-    Pa_Initialize();
+    PaError err = Pa_Initialize();
+
+    if (err != paNoError) {
+        cout<<"Port audio error : "<<Pa_GetErrorText(err)<<endl;
+        return 1;
+    }
+
     vector<double> audioBuffer(BUFFER_SIZE);
     PaStream* stream;
-    Pa_OpenDefaultStream(&stream, 1, 0, paFloat32, SAMPLE_RATE, BUFFER_SIZE, audioCallback, &audioBuffer);
+
+    err = Pa_OpenDefaultStream(&stream, 1, 0, paFloat32, SAMPLE_RATE, BUFFER_SIZE, audioCallback, &audioBuffer);
+
+    if (err != paNoError) {
+        cout<<"Port audio error : "<<Pa_GetErrorText(err)<<endl;
+        Pa_Terminate();
+        return 1;
+    }
+
     Pa_StartStream(stream);
 
     auto* fftOutput = static_cast<fftw_complex*> (fftw_malloc(sizeof(fftw_complex) * BUFFER_SIZE));
-    fftw_plan plan = fftw_plan_dft_r2c_1d(BUFFER_SIZE, audioBuffer.data(), fftOutput, FFTW_ESTIMATE);
+    auto* plan = fftw_plan_dft_r2c_1d(BUFFER_SIZE, audioBuffer.data(), fftOutput, FFTW_ESTIMATE);
 
     sf::RenderWindow window(sf::VideoMode({800u, 600u}), "Audio Spectrum Visualizer");
     window.setFramerateLimit(60);
