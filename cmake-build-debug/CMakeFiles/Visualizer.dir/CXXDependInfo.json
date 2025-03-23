@@ -1,0 +1,21 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug",
+	"dir-cur-src" : "F:/IUT/Third Sem/Audio Engineering/Visualizer",
+	"dir-top-bld" : "F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug",
+	"dir-top-src" : "F:/IUT/Third Sem/Audio Engineering/Visualizer",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\vcpkg\\installed\\x64-windows\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug/CMakeFiles/Visualizer.dir"
+}

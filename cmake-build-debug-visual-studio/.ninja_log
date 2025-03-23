@@ -1,0 +1,81 @@
+# ninja log v6
+308	2510	7644314481334181	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+2650	7633	7644314504750074	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+51	122	7644316980207046	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+126	9484	7644316980954335	Visualizer.exe	d26dde34755ded88
+11	1340	7644382484664293	build.ninja	bd34f91412902174
+51	122	7644316980207046	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+51	122	7644316980207046	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+198	4347	7644382484664293	build.ninja	bd34f91412902174
+64	7524	7644382487663978	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+7539	7651	7644382562415816	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+7539	7651	7644382562415816	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+7539	7651	7644382562415816	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+7662	13600	7644382563646228	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+13600	25929	7644382623026904	Visualizer.exe	d26dde34755ded88
+128	1974	7644384171750759	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+1975	2074	7644384190222865	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+1975	2074	7644384190222865	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+1975	2074	7644384190222865	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+2076	9280	7644384191229040	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+9280	14784	7644384263270947	Visualizer.exe	d26dde34755ded88
+118	2120	7644389045585701	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+2121	2209	7644389065608662	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+2121	2209	7644389065608662	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+2121	2209	7644389065608662	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+2211	7947	7644389066511552	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+7948	12960	7644389123873404	Visualizer.exe	d26dde34755ded88
+7	850	7644391138147174	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+851	936	7644391146588894	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+851	936	7644391146588894	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+851	936	7644391146588894	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+938	6457	7644391147450901	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+6458	11201	7644391202650241	Visualizer.exe	d26dde34755ded88
+117	1273	7644407880077692	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+1274	1345	7644407891633252	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+1274	1345	7644407891633252	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+1274	1345	7644407891633252	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+1346	7284	7644407892366671	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+7284	15257	7644407951736914	Visualizer.exe	d26dde34755ded88
+344	1892	7644416269301842	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+1931	2032	7644416285168754	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+1931	2032	7644416285168754	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+1931	2032	7644416285168754	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+2034	9981	7644416286199295	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+9981	18126	7644416365667747	Visualizer.exe	d26dde34755ded88
+67	3167	7644419848940233	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+3174	3339	7644419880009933	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+3174	3339	7644419880009933	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+3174	3339	7644419880009933	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+3343	12813	7644419881685791	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+12813	22398	7644419976405133	Visualizer.exe	d26dde34755ded88
+5	808	7644420745675292	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+809	871	7644420753710704	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+809	871	7644420753710704	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+809	871	7644420753710704	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+873	6092	7644420754348608	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+6092	10852	7644420806541617	Visualizer.exe	d26dde34755ded88
+272	1311	7644434609657702	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+1311	1422	7644434620048086	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+1311	1422	7644434620048086	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+1311	1422	7644434620048086	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+1424	6833	7644434621172112	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+6833	15844	7644434675267283	Visualizer.exe	d26dde34755ded88
+156	1120	7644438241374146	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+1120	1308	7644438251016298	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+1120	1308	7644438251016298	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+1120	1308	7644438251016298	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+1310	6773	7644438252901905	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+6773	14554	7644438307544249	Visualizer.exe	d26dde34755ded88
+295	1520	7644445945433726	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+1520	1613	7644445957683579	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+1520	1613	7644445957683579	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+1520	1613	7644445957683579	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+1615	8066	7644445958639128	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+8066	18547	7644446023141799	Visualizer.exe	d26dde34755ded88
+115	2055	7644484820992771	CMakeFiles/Visualizer.dir/main.cpp.obj.ddi	36713099aabbd9a8
+2056	2179	7644484840287725	CMakeFiles/Visualizer.dir/CXX.dd	480a4112136ce529
+2056	2179	7644484840287725	F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio/CMakeFiles/Visualizer.dir/CXXModules.json	480a4112136ce529
+2056	2179	7644484840287725	CMakeFiles/Visualizer.dir/main.cpp.obj.modmap	480a4112136ce529
+2183	11077	7644484841558120	CMakeFiles/Visualizer.dir/main.cpp.obj	b5b9aa5a96c24619
+11077	21292	7644484930501068	Visualizer.exe	d26dde34755ded88

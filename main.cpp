@@ -11,6 +11,8 @@ using namespace std;
 
 constexpr int SAMPLE_RATE = 44100;
 constexpr int BUFFER_SIZE = 1024;
+constexpr unsigned WINDOW_HEIGHT = 600u;
+constexpr unsigned WINDOW_WIDTH = 800u;
 
 static int audioCallback(const void* inputBuffer, void* outputBuffer, unsigned long samplesPerFrame, const PaStreamCallbackTimeInfo* timeInfo, PaStreamCallbackFlags statusFlags, void* userData) {
     auto* buffer = static_cast<vector<double>*>(userData);
@@ -45,7 +47,7 @@ int main() {
     auto* fftOutput = static_cast<fftw_complex*> (fftw_malloc(sizeof(fftw_complex) * BUFFER_SIZE));
     auto* plan = fftw_plan_dft_r2c_1d(BUFFER_SIZE, audioBuffer.data(), fftOutput, FFTW_ESTIMATE);
 
-    sf::RenderWindow window(sf::VideoMode({800u, 600u}), "Audio Spectrum Visualizer");
+    sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Audio Spectrum Visualizer");
     window.setFramerateLimit(60);
 
     while(window.isOpen()){
@@ -60,19 +62,29 @@ int main() {
 
         fftw_execute(plan);
 
-        const float barWidth = 5.0f;
+        const size_t totalBars = BUFFER_SIZE / 2;
+        const float barWidth = 3.0f;
         const float barSpacing = 1.0f;
-        const float scaleFactor = 10.0f;
+
+        const float scaleFactorX = WINDOW_WIDTH / (totalBars * (barWidth + barSpacing));
+
+        const float adjustedBarWidth = barWidth * scaleFactorX;
+        const float adjustedBarSpacing = barSpacing * scaleFactorX;
+        const float scaleFactor = 5.0f;
 
         for(size_t i = 0; i < BUFFER_SIZE/2; i++){
-            double magnitude = std::sqrt(fftOutput[i][0] * fftOutput[i][0] + fftOutput[i][1] * fftOutput[i][1]);
-            
-            sf::RectangleShape bar(sf::Vector2f(barWidth, magnitude * scaleFactor));
+            float magnitude = sqrt(static_cast<float>(fftOutput[i][0] * fftOutput[i][0] + fftOutput[i][1] * fftOutput[i][1]));
+            //float logMagnitude = log(1.0f + magnitude) * 10.0f;
+
+            float frequencyScale = 1.0f + (static_cast<float>(i) / (BUFFER_SIZE / 4));
+            float scaledMagnitude = magnitude * scaleFactor * frequencyScale;
+
+            sf::RectangleShape bar(sf::Vector2f(adjustedBarWidth, scaledMagnitude));
             bar.setFillColor(sf::Color(100 + i % 156, 50 + i % 206, 150 + i % 106));
-           
-            float xPos = i * (barWidth + barSpacing);
+
+            float xPos = i * (adjustedBarWidth + adjustedBarSpacing);
             float yPos = 600 - bar.getSize().y;
-            
+
             bar.setPosition({xPos, yPos});
             window.draw(bar);
         }

@@ -20,7 +20,7 @@ target_link_libraries(Visualizer
 PRIVATE
     portaudio
     FFTW3::fftw3
-    Freetype::Freetype    
+    Freetype::Freetype
     SFML::Network
     SFML::Graphics
     SFML::Window

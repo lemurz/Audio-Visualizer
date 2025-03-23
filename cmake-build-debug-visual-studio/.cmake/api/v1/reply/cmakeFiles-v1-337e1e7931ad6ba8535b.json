@@ -1,0 +1,308 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.30.5/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/portaudio/portaudioConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/portaudio/portaudioConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/portaudio/portaudioTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/portaudio/portaudioTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/portaudio/portaudioTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3LibraryDepends.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3LibraryDepends-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3LibraryDepends-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/freetype/freetype-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/freetype/freetype-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/freetype/freetype-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/freetype/freetype-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/freetype/freetype-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLSystemSharedTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLSystemSharedTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLSystemSharedTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLAudioSharedTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLAudioSharedTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLAudioSharedTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLWindowSharedTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLWindowSharedTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLWindowSharedTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLGraphicsSharedTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLGraphicsSharedTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLGraphicsSharedTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLNetworkSharedTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLNetworkSharedTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/vcpkg/installed/x64-windows/share/sfml/SFMLNetworkSharedTargets-release.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug-visual-studio",
+		"source" : "F:/IUT/Third Sem/Audio Engineering/Visualizer"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

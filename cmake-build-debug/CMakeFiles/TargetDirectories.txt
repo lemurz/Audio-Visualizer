@@ -1,0 +1,3 @@
+F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug/CMakeFiles/Visualizer.dir
+F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/IUT/Third Sem/Audio Engineering/Visualizer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
