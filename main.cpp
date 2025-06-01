@@ -13,6 +13,8 @@ constexpr int SAMPLE_RATE = 44100;
 constexpr int BUFFER_SIZE = 1024;
 constexpr unsigned WINDOW_HEIGHT = 600u;
 constexpr unsigned WINDOW_WIDTH = 800u;
+constexpr size_t DISPLAY_BARS = 64;
+constexpr float SMOOTHING_FACTOR = 0.85f;
 
 static int audioCallback(const void* inputBuffer, void* outputBuffer, unsigned long samplesPerFrame, const PaStreamCallbackTimeInfo* timeInfo, PaStreamCallbackFlags statusFlags, void* userData) {
     auto* buffer = static_cast<vector<double>*>(userData);
@@ -50,6 +52,8 @@ int main() {
     sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Audio Spectrum Visualizer");
     window.setFramerateLimit(60);
 
+    vector<float> smoothedMagnitudes(DISPLAY_BARS, 0.0f);
+
     while(window.isOpen()){
 
         while (const optional event = window.pollEvent()) {
@@ -62,30 +66,43 @@ int main() {
 
         fftw_execute(plan);
 
-        const size_t totalBars = BUFFER_SIZE / 2;
-        const float barWidth = 3.0f;
-        const float barSpacing = 1.0f;
+        const double freqMin = 20.0;
+        const double freqMax =  SAMPLE_RATE / 2.0;
 
-        const float scaleFactorX = WINDOW_WIDTH / (totalBars * (barWidth + barSpacing));
+        for(size_t i = 0; i < DISPLAY_BARS; i++){
 
-        const float adjustedBarWidth = barWidth * scaleFactorX;
-        const float adjustedBarSpacing = barSpacing * scaleFactorX;
-        const float scaleFactor = 5.0f;
+            double fractionLow = static_cast<double>(i) / DISPLAY_BARS;
+            double fractionHigh = static_cast<double>(i + 1) / DISPLAY_BARS;
 
-        for(size_t i = 0; i < BUFFER_SIZE/2; i++){
-            float magnitude = sqrt(static_cast<float>(fftOutput[i][0] * fftOutput[i][0] + fftOutput[i][1] * fftOutput[i][1]));
-            //float logMagnitude = log(1.0f + magnitude) * 10.0f;
+            double freqLow = freqMin * pow(freqMax/freqMin, fractionLow);
+            double freqHigh = freqMin * pow(freqMax/freqMin, fractionHigh);
 
-            float frequencyScale = 1.0f + (static_cast<float>(i) / (BUFFER_SIZE / 4));
-            float scaledMagnitude = magnitude * scaleFactor * frequencyScale;
+            int binLow = static_cast<int>(freqLow * BUFFER_SIZE / SAMPLE_RATE);
+            int binHigh = static_cast<int>(freqHigh * BUFFER_SIZE / SAMPLE_RATE);
 
-            sf::RectangleShape bar(sf::Vector2f(adjustedBarWidth, scaledMagnitude));
-            bar.setFillColor(sf::Color(100 + i % 156, 50 + i % 206, 150 + i % 106));
+            if (binHigh <= binLow) {
+                binHigh = binLow + 1;
+            }
 
-            float xPos = i * (adjustedBarWidth + adjustedBarSpacing);
-            float yPos = 600 - bar.getSize().y;
+            double sum = 0.0;
 
-            bar.setPosition({xPos, yPos});
+            for (int i = binLow; i < binHigh && i < BUFFER_SIZE / 2; i++) {
+                float real = fftOutput[i][0];
+                float imag = fftOutput[i][1];
+                sum += sqrt(real * real + imag * imag);
+            }
+
+            double avgMagnitude = sum / (binHigh - binLow);
+            smoothedMagnitudes[i] = SMOOTHING_FACTOR * avgMagnitude + (1.0f - SMOOTHING_FACTOR) * smoothedMagnitudes[i];
+
+            float barWidth = static_cast<float>(WINDOW_WIDTH) / DISPLAY_BARS;
+            float barHeight = smoothedMagnitudes[i] * 5.0f;
+            barHeight = min(barHeight, static_cast<float>(WINDOW_HEIGHT));
+
+            sf::RectangleShape bar(sf::Vector2f(barWidth - 2.0f, -barHeight));
+            bar.setPosition({i * barWidth, WINDOW_HEIGHT});
+            bar.setFillColor(sf::Color(180, 100 + (i * 2) % 155, 200));
+
             window.draw(bar);
         }
 

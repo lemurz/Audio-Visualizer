@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Visualizer.dir\\Graphics\\Visualizer.cpp.obj",
+            "outputs": [
+                "F:\\IUT\\Third Sem\\Audio Engineering\\Visualizer\\cmake-build-debug-visual-studio\\vc140.pdb",
+                "CMakeFiles\\Visualizer.dir\\Graphics\\Visualizer.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
